@@ -1,7 +1,7 @@
 {
   "index_name": "styled-components",
   "start_urls": [
-    "https://www.styled-components.com/docs"
+    "https://styled-components.com/docs"
   ],
   "stop_urls": [],
   "selectors": {
@@ -18,6 +18,6 @@
   "conversation_id": [
     "455995425"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 621
+  "scrape_start_urls": false,
+  "nb_hits": 617
 }

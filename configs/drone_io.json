@@ -26,9 +26,9 @@
     "text": "main p, main li"
   },
   "min_indexed_level": 1,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "298827157"
   ],
-  "nb_hits": 3766
+  "nb_hits": 4318
 }

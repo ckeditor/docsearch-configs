@@ -1,14 +1,11 @@
 {
   "index_name": "react-native-versions",
   "start_urls": [
-    "https://facebook.github.io/react-native/docs/"
+    "https://reactnative.dev/docs/"
   ],
   "sitemap_alternate_links": true,
   "sitemap_urls": [
-    "https://facebook.github.io/react-native/sitemap.xml"
-  ],
-  "stop_urls": [
-    "\\.html$"
+    "https://reactnative.dev/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -28,11 +25,22 @@
       "global": true
     }
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags",
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
   "conversation_id": [
     "477313987"
   ],
-  "nb_hits": 342710
+  "nb_hits": 370167
 }

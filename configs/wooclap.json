@@ -32,15 +32,8 @@
       ]
     },
     {
-      "url": "https://docs.wooclap.com/faq-(?P<lang>[a-z]{2}?)",
+      "url": "https://docs.wooclap.com/",
       "selectors_key": "faq",
-      "variables": {
-        "lang": [
-          "en",
-          "es",
-          "fr"
-        ]
-      },
       "tags": [
         "faq"
       ]
@@ -138,5 +131,5 @@
   "conversation_id": [
     "852968610"
   ],
-  "nb_hits": 3740
+  "nb_hits": 9547
 }

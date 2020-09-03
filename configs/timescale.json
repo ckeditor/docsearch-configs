@@ -6,6 +6,9 @@
       "selectors_key": "installation",
       "variables": {
         "version": [
+          "latest",
+          "v1.5",
+          "v1.4",
           "v1.3",
           "v1.2",
           "v1.1",
@@ -14,7 +17,7 @@
           "v0.11",
           "v0.10",
           "v0.9",
-          "v0.8"
+          "clustering"
         ]
       }
     },
@@ -22,6 +25,9 @@
       "url": "https://docs.timescale.com/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "latest",
+          "v1.5",
+          "v1.4",
           "v1.3",
           "v1.2",
           "v1.1",
@@ -30,13 +36,10 @@
           "v0.11",
           "v0.10",
           "v0.9",
-          "v0.8"
+          "clustering"
         ]
       }
     }
-  ],
-  "sitemap_urls": [
-    "http://docs-new.timescale.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -67,5 +70,5 @@
     "628616287"
   ],
   "js_render": true,
-  "nb_hits": 15189
+  "nb_hits": 26996
 }
